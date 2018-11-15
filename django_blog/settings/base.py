@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blogapp',
     'accounts',
+    'storages',
     
     'django_forms_bootstrap',
 ]

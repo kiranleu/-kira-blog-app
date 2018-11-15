@@ -15,9 +15,11 @@
         <div class="col-sm-10 col-md-9">
             <h3>{{ post.title }}</h3>
             
+            {% if post.image %}
+            
             <img src="{{MEDIA_URL}}{{blog.image}}"/>
             
-            
+            {% endif %}
             <div class="row">
                 <div class="col-xs-9">
                     <p>{{ blog.content | linebreaksbr }}</p>
